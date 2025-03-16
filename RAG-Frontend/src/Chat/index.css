@@ -1,0 +1,12 @@
+/* Style for links inside the bot's message */
+.bot-message a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: underline; /* Underline the links */
+    font-weight: bold; /* Make the text bold */
+  }
+  
+  /* Hover effect for links */
+  .bot-message a:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: none; /* Remove underline on hover */
+  }

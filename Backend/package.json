@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "@huggingface/transformers": "^3.4.0",
+    "@langchain/openai": "^0.4.4",
+    "@pinecone-database/pinecone": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "langchain": "^0.3.19",
+    "nodemon": "^3.1.9",
+    "youtube-transcript": "^1.2.1"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "name": "ragtutorial",
+  "description": "This is a tutorial project for learning Node.js.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuryaManavalan/RagTutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuryaManavalan/RagTutorial/issues"
+  },
+  "homepage": "https://github.com/SuryaManavalan/RagTutorial#readme"
+}
