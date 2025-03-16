@@ -1,9 +1,10 @@
 const { pipeline } = require("@huggingface/transformers");
 const { Pinecone } = require("@pinecone-database/pinecone");
-// console.log(process.env.PINECONE_API_KEY)
+
 // Initialize Pinecone
 const pc = new Pinecone({
-  apiKey:process.env.PINECONE_API_KEY,
+  apiKey:
+    "pcsk_9CBfH_8n7E7WVnqxRPQ94X5ivpAFFfHjPsCyRxJ8fmpVTr6g2kRirVTKgLTNZQqQbQB1x",
 });
 const indexName = "test-youtube";
 const index = pc.index(indexName);
