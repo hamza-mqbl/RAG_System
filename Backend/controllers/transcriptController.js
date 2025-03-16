@@ -9,7 +9,7 @@ const ErrorHandler = require("../utils/ErrorHandler");
 // Step 4: Analyze Transcript
 const analyzeTranscript = catchAsyncErrors(async (req, res, next) => {
   const { query } = req.body;
-  console.log("🚀 ~ analyzeTranscript ~ query:", query);
+  // console.log("🚀 ~ analyzeTranscript ~ query:", query);
 
   if (!query) {
     return next(new ErrorHandler("Query is required.", 400));
@@ -27,7 +27,7 @@ const analyzeTranscript = catchAsyncErrors(async (req, res, next) => {
           chunk.videoUrl,
           chunk.timestamp
         );
-        console.log("🚀 ~ .map ~ timestampedLink:", timestampedLink);
+        // console.log("🚀 ~ .map ~ timestampedLink:", timestampedLink);
         return {
           text: chunk.text,
           timestampedLink,
