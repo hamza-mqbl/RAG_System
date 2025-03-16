@@ -3,8 +3,7 @@ const { Pinecone } = require("@pinecone-database/pinecone");
 
 // Initialize Pinecone
 const pc = new Pinecone({
-  apiKey:
-    "pcsk_9CBfH_8n7E7WVnqxRPQ94X5ivpAFFfHjPsCyRxJ8fmpVTr6g2kRirVTKgLTNZQqQbQB1x",
+  apiKey:process.env.PINECONE_API_KEY,
 });
 const indexName = "test-youtube";
 const index = pc.index(indexName);
