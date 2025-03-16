@@ -32,8 +32,9 @@ To run this project, use the following command:
 
 
 ```sh
-node index.js
+go the backend npm start
+
 ```
 
 ## Author
-- Surya Manavalan
+- Hamza Maqbool 
